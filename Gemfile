@@ -17,10 +17,10 @@ gem "launchy"
 gem "oauth"
 
 # For running on a schedule
-gem "whenever", :require => false
+gem "whenever", ">= 0.7.3", :require => false
 
 # Used by whenever to trigger playlist creation
 gem "rake"
 
 # For building slightly cooler playlist descriptions
-gem "twitter"
+gem "twitter", ">= 4.0.0"
