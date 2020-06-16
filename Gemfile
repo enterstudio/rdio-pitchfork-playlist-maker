@@ -23,4 +23,4 @@ gem "whenever", :require => false
 gem "rake"
 
 # For building slightly cooler playlist descriptions
-gem "twitter"
+gem "twitter", ">= 4.0.0"
