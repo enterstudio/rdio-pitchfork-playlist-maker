@@ -5,7 +5,7 @@ source "http://rubygems.org"
 gem "awesome_print"
 
 # For parsing and scraping Pitchfork
-gem "nokogiri"
+gem "nokogiri", ">= 1.15.6"
 
 # For checking track availability and creating playlists
 gem "rdio", "0.0.98a"
@@ -23,4 +23,4 @@ gem "whenever", :require => false
 gem "rake"
 
 # For building slightly cooler playlist descriptions
-gem "twitter"
+gem "twitter", ">= 4.0.0"
